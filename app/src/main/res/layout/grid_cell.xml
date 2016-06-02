@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:padding="8dp">
+
+    <TextView
+        android:id="@+id/grid_item_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="TEXTVIEW"
+        android:textSize="20sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/grid_item_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid_item_number"
+        android:layout_margin="0dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:text="EDITTEXT">
+    </EditText>
+
+</RelativeLayout>
