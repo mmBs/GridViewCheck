@@ -1,5 +1,4 @@
 # GridViewCheck
--
 
 This is a simple project just to proof that there is a possibility to have `onClick` and `onLongClick` fully operational on a `GridView` widget.
 
